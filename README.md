@@ -1,4 +1,4 @@
-# Cold Mail Generator
+# Cold Mail Generator📧
 
 ## Table of Contents
 - Overview
