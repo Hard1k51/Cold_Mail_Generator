@@ -12,6 +12,9 @@
 ## Overview
 The Cold Mail Generator is a Python-based tool designed to automate the process of creating personalized cold emails for outreach campaigns. It helps users streamline their communication efforts by generating engaging email content based on provided inputs such as the recipient's name, company, and specific interests.
 
+![architecture](https://github.com/user-attachments/assets/5cd7a80b-4fde-4be0-99ee-4d226f2b284a)
+
+
 ## Features
 - Generate personalized cold emails with customizable templates.
 - User-friendly interface for inputting recipient details.
@@ -71,6 +74,10 @@ Click the 'Generate' button to create your personalized email. You can edit the 
 - Copy the email content to your clipboard for easy pasting into your email client.
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+## Output e.g. 
+![image](https://github.com/user-attachments/assets/696f1461-00fb-4ff5-80e1-9e44e1ddf42e)
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
