@@ -1,0 +1,12 @@
+import nselib
+from nselib import capital_market
+import pandas as pd
+
+mrf1 = capital_market.price_volume_and_deliverable_position_data('MRF', from_date='16-09-2023', to_date='16-09-2024')
+mrf2 = capital_market.price_volume_and_deliverable_position_data('MRF', from_date='16-09-2022', to_date='15-09-2023')
+mrf3 = capital_market.price_volume_and_deliverable_position_data('MRF', from_date='16-09-2021', to_date='15-09-2022')
+mrf4 = capital_market.price_volume_and_deliverable_position_data('MRF', from_date='16-09-2020', to_date='15-09-2021')
+mrf5 = capital_market.price_volume_and_deliverable_position_data('MRF', from_date='16-09-2019', to_date='15-09-2020')
+
+mrf_data = pd.concat([mrf1, mrf2, mrf3, mrf4, mrf5], ignore_index=True)
+mrf_data.head()
